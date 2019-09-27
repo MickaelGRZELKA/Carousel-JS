@@ -1,7 +1,5 @@
 const next = document.querySelector('.next')
-console.log(next);
 const li = document.querySelectorAll('li')
-console.log(li);
 let i = 0;
 
 function scrollingNext() {
@@ -14,4 +12,3 @@ function scrollingNext() {
  }
 
  next.addEventListener('click', scrollingNext);
- console.log(next);
